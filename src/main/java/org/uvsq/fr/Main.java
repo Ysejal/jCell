@@ -133,7 +133,7 @@ public class Main extends Application {
 
         // Ajout des composants au layout
         secondRoot.getChildren().addAll(ajoutProfil, ajoutExplain, firstSeparator, firstHbox, secondSeparator,
-            secondHbox);
+                secondHbox);
 
         // Clic sur le boutton "continu" qui créer le nouveau profil et ferme la fenêtre
         // de création de profil
@@ -143,7 +143,7 @@ public class Main extends Application {
           public void handle(ActionEvent event) {
 
             if (imageBox.getValue().getImage().getUrl().equals("/images/choice/choice.png")
-                || nameProfil.getText().isEmpty()) {
+                    || nameProfil.getText().isEmpty()) {
 
               if (secondHbox.getChildren().get(secondHbox.getChildren().size() - 1) instanceof Label)
                 ;
@@ -268,10 +268,13 @@ public class Main extends Application {
     tilePane.getChildren().clear();
 
     String url48px = box.getValue().getImage().getUrl();
-    String url256px = url48px.substring(0, 85) + "256px" + url48px.substring(89, url48px.length()); // Changer le
-                                                                                                    // chiffre par
-                                                                                                    // rapport au chemin
-                                                                                                    // ligne 358
+
+    System.out.println(url48px);
+
+    String url256px = url48px.substring(0, 31) + "256px" + url48px.substring(35, url48px.length()); // Changer le
+    // chiffre par
+    // rapport au chemin
+    // ligne 358
 
     Image IMG = new Image(url256px);
     ImageView IMGView = new ImageView(IMG);
@@ -310,7 +313,7 @@ public class Main extends Application {
 
           try {
             Parent parent = FXMLLoader
-                .load(Objects.requireNonNull(getClass().getClassLoader().getResource("fxml/main.fxml")));
+                    .load(Objects.requireNonNull(getClass().getClassLoader().getResource("fxml/main.fxml")));
             newStage.setScene(new Scene(parent));
             newStage.getIcons().add(new Image("images/logo.png"));
             newStage.setTitle("jCell");
@@ -353,10 +356,10 @@ public class Main extends Application {
     File[] paths;
 
     // Création d'un nouveau fichier
-    f = new File("D:/Dossiers Personnels/L3 Info/S6/Projet/jCell-master/src/main/resources/images/48px/"); // Changer le
-                                                                                                           // chemin
-                                                                                                           // pour autre
-                                                                                                           // pc
+    f = new File("src/main/resources/images/48px/"); // Changer le
+    // chemin
+    // pour autre
+    // pc
     // f = new
     // File(getClass().getClassLoader().getResource("/images/48px/").toString());
 
