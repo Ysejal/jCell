@@ -27,10 +27,10 @@
       <Button fx:id="pauseButton" onAction="#onPause" text="Pause" />
       <Button fx:id="onStepButton" onAction="#onStep" text="Etape" />
       <Separator />
-      <Text text="Choisir " />
-      <Button fx:id="startMaze" onAction="#startMaze" text="Maze" />
-      <Text text="ou l'automate :" />
+      <Text text="Choisir l'automate" />
       <ComboBox fx:id="automatonSelector" editable="false" onAction="#onAutomatonUpdate" />
+      <Text text="ou" />
+      <Button fx:id="startMaze" onAction="#startMaze" text="Maze" />
       <Button fx:id="loadButton" onAction="#onLoad" text="Charger" />
       <Button fx:id="chargeFile" onAction="#onOpen" text="Ouvrir" />
       <Separator />
