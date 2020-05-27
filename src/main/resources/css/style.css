@@ -1,0 +1,16 @@
+.chart-series-line{
+    -fx-stroke-width: 2px;
+}
+
+.default-color0.chart-series-line{-fx-stroke: GREEN;}
+.default-color1.chart-series-line{-fx-stroke: RED;}
+.default-color2.chart-series-line{-fx-stroke: BLUE;}
+.default-color3.chart-series-line{-fx-stroke: GREY;}
+
+.default-color0.chart-line-symbol{-fx-background-color:  GREEN;}
+
+.default-color1.chart-line-symbol{-fx-background-color: RED;}
+
+.default-color2.chart-line-symbol{-fx-background-color: BLUE;}
+
+.default-color3.chart-line-symbol{-fx-background-color: GREY;}

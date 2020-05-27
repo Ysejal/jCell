@@ -1,0 +1,193 @@
+.scroll-pane {
+
+   -fx-background: #010615;
+   -fx-border-color: #010615;
+}
+
+.scroll-pane > .corner {
+
+    -fx-background-color: black;
+}
+
+.scroll-bar:vertical {
+
+    -fx-background-color:transparent;
+    -fx-background-witdh: 500px;
+}
+
+.scroll-bar:vertical .increment-arrow, .scroll-bar:vertical .decrement-arrow {
+
+    -fx-background-color: white;
+}
+
+.scroll-bar:vertical .thumb {
+
+   -fx-background-color: white;
+   -fx-background-radius: 5em;
+}
+
+.myTilePane {
+
+    -fx-padding: 125 25 25 60;
+}
+
+.button {
+
+    -fx-opacity: 0.5;
+    -fx-font-size: 20;
+    -fx-content-display: top;
+    -fx-text-fill: #856c67;
+}
+
+.button:hover {
+
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.firstProfilButton {
+
+    -fx-background-color: linear-gradient(from 25px 25px to 300px 300px,#89ff00, #00bcd4, #010615);
+}
+
+.firstProfilButton:hover {
+
+     -fx-background-color: linear-gradient(from 25px 25px to 300px 300px, #010615, #00bcd4,#89ff00);
+}
+
+.secondProfilButton {
+
+    -fx-background-color: linear-gradient(from 25px 25px to 300px 300px,#ff005e, #010615, #fbff00);
+}
+
+.secondProfilButton:hover {
+
+    -fx-background-color: linear-gradient(from 25px 25px to 300px 300px,#fbff00, #010615,#ff005e );
+}
+
+.thirdProfilButton {
+
+    -fx-background-color: linear-gradient(from 25px 25px to 300px 300px,#772aff, #010615, #2196F3);
+}
+
+.thirdProfilButton:hover {
+
+    -fx-background-color: linear-gradient(from 25px 25px to 300px 300px,#2196F3, #010615,#772aff );
+}
+
+.addProfilButton {
+
+    -fx-background-color: transparent;
+}
+
+.secondRoot {
+
+    -fx-background: #010615;
+    -fx-spacing: 10px;
+    -fx-padding: 25px;
+}
+
+.secondRoot > .labelAjout {
+
+    -fx-text-fill: white;
+    -fx-font-size: 30px ;
+}
+
+.secondRoot > .labelExplain {
+
+    -fx-text-fill: gray;
+}
+
+.secondRoot > .firstHBox {
+
+    -fx-spacing: 15px;
+}
+
+.secondRoot > .secondHBox {
+
+    -fx-spacing: 15px;
+}
+
+.comboBox {
+
+   -fx-background-color: #c4ced4;
+}
+
+.comboBox .list-cell {
+
+    -fx-cell-size: 7em;
+}
+
+.comboBox .list-view {
+
+       -fx-background-color: #3d7bff;
+       -fx-border-color: #3d7bff;
+
+}
+
+.comboBox:hover {
+
+    -fx-background-color: white;
+    -fx-cursor: hand;
+}
+
+.secondRoot > .separator {
+
+    -fx-padding: 10,50,0,0;
+}
+
+.secondRoot > .separator *.line {
+
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: gray;
+}
+
+.nameProfilButton {
+
+   -fx-background-radius: 0px;
+   -fx-text-fill: black;
+   -fx-background-color: white;
+   -fx-border-width: 3;
+   -fx-border-color: #3d7bff;
+}
+
+.continuButton {
+
+    -fx-background-radius: 0px;
+    -fx-background-color: #010615;
+    -fx-border-color: gray;
+    -fx-text-fill: gray;
+}
+
+.continuButton:hover {
+
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-text-fill: #010615;
+    -fx-cursor: hand;
+}
+
+.cancelButton {
+
+    -fx-background-radius: 0px;
+    -fx-background-color: #010615;
+    -fx-border-color: gray;
+    -fx-text-fill: gray;
+}
+
+.cancelButton:hover {
+
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-text-fill: #010615;
+    -fx-cursor: hand;
+}
+
+.errorLabel {
+
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+

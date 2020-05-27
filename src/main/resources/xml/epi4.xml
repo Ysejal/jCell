@@ -1,0 +1,10 @@
+<?xml version ="1.0" encoding="UTF8"?>
+<Simulation>
+    <config>
+        <gridWidth>40</gridWidth>
+        <gridHeight>40</gridHeight>
+        <probCellHealthy>15</probCellHealthy>
+        <probCellInfected>15</probCellInfected>
+        <probCellVaccinated>20</probCellVaccinated>
+    </config>
+</Simulation>

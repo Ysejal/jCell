@@ -1,0 +1,10 @@
+<?xml version ="1.0" encoding="UTF8"?>
+<Simulation>
+    <config>
+        <gridWidth>20</gridWidth>
+        <gridHeight>20</gridHeight>
+        <probCellAlive>15</probCellAlive>
+        <deadColor>white</deadColor>
+        <aliveColor>black</aliveColor>
+    </config>
+</Simulation>
